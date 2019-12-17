@@ -22,7 +22,7 @@ Getting up and running is as easy as 1, 2.
     
      install laravel MongoDb package
    ```
-    pusher/pusher-php-server
+    composer require pusher/pusher-php-server
     ```
     
     
