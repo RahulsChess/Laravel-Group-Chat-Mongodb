@@ -38,7 +38,7 @@ put database credentials in .env file
     composer require jenssegers/mongodb
     ```
     
-     install laravel MongoDb package
+     install laravel Pusher SDK
    ```
     composer require pusher/pusher-php-server
     ```
