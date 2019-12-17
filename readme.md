@@ -10,11 +10,29 @@ This repository demonstrates the process to create a realtime *Group Chat Applic
 6. Do not forget to run the queue listener to broadcast the events
 
 ## Getting Started
+Very simple php based chatting application
 
-Getting up and running is as easy as 1, 2.
+# Installation
+1. Clone this repo
+```
+https://github.com/RahulsChess/Laravel-Group-Chat-Mongodb.git
+```
+
+2. Install composer packages
+```
+cd laravel-chat
+$ composer install
+```
+
+3. Create and setup .env file
+```
+make a copy of .env.example and rename to .env
+$ php artisan key:generate
+put database credentials in .env file
+```
 
 
-1. Install your dependencies
+4. Install your dependencies
    install laravel MongoDb package
    ```
     composer require jenssegers/mongodb
@@ -33,7 +51,7 @@ Getting up and running is as easy as 1, 2.
     npm run watch
     ```
 
-2. Start your app
+5. Start your app
 
     ```
     php artisan queue:listen
