@@ -20,7 +20,7 @@ https://github.com/RahulsChess/Laravel-Group-Chat-Mongodb.git
 
 2. Install composer packages
 ```
-cd laravel-chat
+cd your_Project_Name
 $ composer install
 ```
 
